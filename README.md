@@ -22,6 +22,7 @@ Developed a regression-based machine learning system to predict residential prop
 ## Deployment
 - Deployed using Streamlit for interactive, real-time predictions
 - End-to-end workflow: User Input → Preprocessing → Model Inference → Output
+- - Model serialized using pickle for efficient inference
 
 ## Tech Stack
 Python, Pandas, NumPy, Scikit-learn, Streamlit
@@ -32,11 +33,3 @@ Python, Pandas, NumPy, Scikit-learn, Streamlit
 3. Model generates price prediction
 4. Output displayed via web interface
 
-## Project Structure
-├── data/                # Raw and processed datasets  
-├── notebooks/           # EDA and experimentation  
-├── src/                 # Pipeline and model code  
-├── models/              # Serialized model files  
-├── app.py               # Streamlit application  
-├── requirements.txt  
-└── README.md  
